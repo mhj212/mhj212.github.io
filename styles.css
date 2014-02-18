@@ -1,0 +1,198 @@
+
+/* Parallax */
+.parallax-background {
+  height: 700px;
+}
+
+.sticky{
+  position:fixed;
+  top:0;
+  left: 0;
+  width:100%;
+  z-index: 1; 
+  opacity: .75;
+}
+
+ul li {
+  list-style: none;
+  overflow: hidden;
+  height: 550px;
+  position:relative;
+}
+
+.photo2 {
+  background-image:url('images/TulipFieldsinNetherlands.jpg');
+  background-size: cover;
+
+}
+
+.photo1 {
+  background-image:url('images/LavenderFieldsUKandFrance2.jpg');
+  background-size: cover;
+ }
+
+ .photo6 {
+  background-image:url('images/TunnelofLoveUkraine.jpg');
+  background-size: cover;
+}
+
+.photo4 {
+  background-image:url('images/ShibazakuraFlowersTakinoueParkJapan.jpg');
+  background-size: cover;
+  }
+
+ .photo5 {
+  background-image:url('images/BambooForestJapan.jpg');
+  background-size: cover;
+}
+
+.photo3 {
+  background-image:url('images/WisteriaFlowerTunnelinJapan.jpg');
+  background-size: cover;
+  }
+
+
+
+
+
+
+/* main page */
+
+.top-main {
+	width: 100%;
+}
+
+.text-main h1 { 
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Nixie One', cursive;
+  	
+ }
+
+ .text-main h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Nixie One', cursive;
+  padding: 20px;
+
+ }
+
+
+ .top-main img {
+ 	  border: 5px solid black;
+      border-radius: 30px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+
+ }
+
+
+.trans-box{
+	margin: 100px;
+	padding: 200px;
+	background: rgba(255,255,255,0.4);
+	text-align: center;
+}
+
+.trans-box h1 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Nixie One', cursive;
+}
+
+.layer-3 {
+	margin: 0 auto;
+   
+}
+.layer-3 h1 {
+  color: black;
+  padding: 130px 0px 0px 0px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Nixie One', cursive;
+
+}
+
+.layer-3 h1:hover {
+	color: gray;
+}
+.layer-3 a {
+	text-decoration: none;	
+}
+
+
+
+.fj {
+	text-align: center;
+	width: 45%;
+	float: left;
+}
+
+
+.fj img {
+
+	width: 270px;
+	height: 200px;
+	padding: 20px;
+}
+
+
+.fj p {
+	text-align: center;
+	padding: 50px;
+	width: 60%;
+	color: black;
+	margin: 0 auto;
+	
+	/*float: right;*/
+    font-family: 'Nixie One', cursive;
+}
+
+
+.stack {
+  color: black;
+
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Nixie One', cursive;
+  padding: 80px;	
+}
+
+
+
+
+.text-contact {
+  padding: 200px;
+}
+
+.text-contact h1 {
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Nixie One', cursive;
+  padding: 100px;
+}
+
+.text-contact a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Nixie One', cursive;
+  padding: 20px;
+}
+
+.text-contact h2 {
+	text-align: center;
+}
+
+.text-contact a:hover{
+	color: gray;
+}
