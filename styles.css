@@ -106,12 +106,14 @@ ul li {
 }
 
 .layer-3 {
+  height: 1000px;
+  padding-top: 40px;
 	margin: 0 auto;
    
 }
 .layer-3 h1 {
   color: black;
-  padding: 130px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: center;
   font-size: 50px;
   font-family: 'Nixie One', cursive;
@@ -129,7 +131,7 @@ ul li {
 
 .fj {
 	text-align: center;
-	width: 45%;
+	width: 33%;
 	float: left;
 }
 
