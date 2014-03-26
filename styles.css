@@ -135,6 +135,12 @@ ul li {
 	float: left;
 }
 
+@media (max-width: 915px) {
+  .layer-3 {
+    width: 900px;
+   
+  }
+}
 
 .fj img {
 
