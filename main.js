@@ -13,6 +13,7 @@ var parallax = (function() {
 		offset,
 		scroll;
 
+
 	return function render() {
 		top = bodyScroll.scrollTop;
 
@@ -30,8 +31,10 @@ var parallax = (function() {
 
 })();
 
-$(function() {
+// $(function() {
+// 	$(window).on('scroll', parallax);
+// });
+
+$(document).ready(function(){
 	$(window).on('scroll', parallax);
-});
-
-
+})
