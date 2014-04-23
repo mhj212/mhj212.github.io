@@ -150,6 +150,14 @@ ul li {
   }
 }
 
+@media (max-width: 1300px) {
+  #CaL {
+    width: 100%;
+   
+  }
+}
+
+
 .fj img {
 
 	width: 270px;
