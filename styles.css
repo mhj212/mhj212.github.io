@@ -26,6 +26,13 @@ ul li {
 
 }
 
+@media (max-width: 945px){
+  .photo2, .photo6, .photo5 {
+    width: 945px;
+  }  
+}
+
+
 .photo1 {
   background-image:url('images/LavenderFieldsUKandFrance2.jpg');
   background-size: cover;
@@ -156,6 +163,7 @@ ul li {
    
   }
 }
+
 
 
 .fj img {
